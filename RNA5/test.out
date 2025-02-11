@@ -1,0 +1,9 @@
+ID = test
+cggcguugauaggauuuaguaguauuucgauuucugauuucagagagcugguggucggugcgaaccaguacagagcgaauuaugaauuacccccuggagcuucuuuuacgaaacguaaggaguagugaaagacgguuauagaccguuaugucuaaagaguggugaaacgaaacuguuucacaauuuagggugguaccgcgaauuuuucgucccugcauauauugcaggggcguuuuuauuuuauaagcgcauaucauaugacccuuuauuuugugauacauu
+Time = 20.0
+M = 1
+k_growth = 40.0
+k_nucl = 1.0E7
+helix threshold = -7000.0
+min helix length = 3
+allows final GU = true

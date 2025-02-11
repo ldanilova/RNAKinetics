@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="debug.0" name="SmartStepRedefineClasses" value="0"/>
+  <property category="debug.0" name="SmartStepSkipStaticInitializers" value="0"/>
+  <property category="debug.0" name="SmartStepSkipSynthetics" value="0"/>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="javaFormatting" name="classBraceNextLine" value="1"/>
+  <property category="javaFormatting" name="methodBraceNextLine" value="1"/>
+  <property category="javaFormatting" name="otherBraceNextLine" value="1"/>
+  <property category="optimize.0" name="OptimizableType" value="com.borland.jbuilder.optimize.IntroOptimizeitProfiler"/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="Untitled Runtime Configuration"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="rna1.rna1"/>
+  <property category="runtime.0" name="appserver.parameters" value=""/>
+  <property category="runtime.0" name="appserver.servername" value=""/>
+  <property category="runtime.0" name="appserver.vmparameters" value=""/>
+  <property category="runtime.0" name="server.arguments" value=""/>
+  <property category="runtime.0" name="server.disableServerClassTracing" value="0"/>
+  <property category="runtime.0" name="server.instance.name" value=""/>
+  <property category="runtime.0" name="server.name" value="Tomcat 4.0"/>
+  <property category="runtime.0" name="server.vmparameters" value=""/>
+  <property category="runtime.0" name="test.harness" value="com.borland.jbuilder.unittest.JBTestRunner"/>
+  <property category="serverservices" name="single.server.name" value="Tomcat 4.0"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="BeansInstantiate" value="false"/>
+  <property category="sys" name="BraceStyle" value="1"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2003"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="EventMatch" value="false"/>
+  <property category="sys" name="EventStyle" value="1"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_01-b06"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value=""/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value="ReadFile"/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="Application" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.10" value="F:src/rna1/structure.java;rna1/structure.java"/>
+    <property category="archiving" name="contentRules.11" value="F:src/rna1/test.java;rna1/test.java"/>
+    <property category="archiving" name="contentRules.12" value="F:src/rna1/WriteFile.java;rna1/WriteFile.java"/>
+    <property category="archiving" name="contentRules.2" value="F:src/rna1/ArrayRandom.java;rna1/ArrayRandom.java"/>
+    <property category="archiving" name="contentRules.3" value="F:src/rna1/ExpRandom.java;rna1/ExpRandom.java"/>
+    <property category="archiving" name="contentRules.4" value="F:src/rna1/filter.java;rna1/filter.java"/>
+    <property category="archiving" name="contentRules.5" value="F:src/rna1/foldings.java;rna1/foldings.java"/>
+    <property category="archiving" name="contentRules.6" value="F:src/rna1/heliset.java;rna1/heliset.java"/>
+    <property category="archiving" name="contentRules.7" value="F:src/rna1/ReadFile.java;rna1/ReadFile.java"/>
+    <property category="archiving" name="contentRules.8" value="F:src/rna1/rna1.java;rna1/rna1.java"/>
+    <property category="archiving" name="contentRules.9" value="F:src/rna1/state_element.java;rna1/state_element.java"/>
+    <property category="archiving" name="manifestMainClass" value="rna1.rna1"/>
+    <property category="archiving" name="targetPath" value="RNA71.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="test" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.10" value="F:src/rna1/structure.java;rna1/structure.java"/>
+    <property category="archiving" name="contentRules.11" value="F:src/rna1/test.java;rna1/test.java"/>
+    <property category="archiving" name="contentRules.12" value="F:src/rna1/WriteFile.java;rna1/WriteFile.java"/>
+    <property category="archiving" name="contentRules.2" value="F:src/rna1/ArrayRandom.java;rna1/ArrayRandom.java"/>
+    <property category="archiving" name="contentRules.3" value="F:src/rna1/ExpRandom.java;rna1/ExpRandom.java"/>
+    <property category="archiving" name="contentRules.4" value="F:src/rna1/filter.java;rna1/filter.java"/>
+    <property category="archiving" name="contentRules.5" value="F:src/rna1/foldings.java;rna1/foldings.java"/>
+    <property category="archiving" name="contentRules.6" value="F:src/rna1/heliset.java;rna1/heliset.java"/>
+    <property category="archiving" name="contentRules.7" value="F:src/rna1/ReadFile.java;rna1/ReadFile.java"/>
+    <property category="archiving" name="contentRules.8" value="F:src/rna1/rna1.java;rna1/rna1.java"/>
+    <property category="archiving" name="contentRules.9" value="F:src/rna1/state_element.java;rna1/state_element.java"/>
+    <property category="archiving" name="manifestMainClass" value="rna1.test"/>
+    <property category="archiving" name="targetPath" value="RNA71_test.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <file path="src/rna1/ArrayRandom.java"/>
+  <file path="src/rna1/ExpRandom.java"/>
+  <file path="src/rna1/groups_list.java"/>
+  <file path="src/rna1/heliset.java"/>
+  <file path="src/rna1/ReadFile.java"/>
+  <file path="src/rna1/rna1.java"/>
+  <file path="src/rna1/structure.java"/>
+  <file path="src/rna1/transit_foldings.java"/>
+  <file path="src/rna1/WriteFile.java"/>
+</project>
